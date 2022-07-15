@@ -133,16 +133,17 @@ td
     100%{background-position:0% 50%}
 }
 
-@media only screen and (max-width: 1470px)
+@media only screen and (max-width: 500px)
 {
   
    #page
-   {display: flex;
+   {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	width:80%;
-	height: 88vh;
+	
    }
 
    h1 
@@ -152,8 +153,8 @@ td
 
    img.pendu 
    {
-	width: 300px;
-	height: 350px;
+	width: 180px;
+	height: 230px;
 	margin-bottom: 20px;
 	
    }
@@ -171,9 +172,10 @@ td
 
    #mot td 
    {
-	width:15px;
-	height:15px;
+	width:20px;
+	height:12px;
 	font-size: 10px;
+
 	
    }
 
@@ -184,7 +186,12 @@ td
 
    #clavier td 
    {
-	width:30px;
-	height:30px;
+	width:20px;
+	height:20px;
    }
+
+   .case
+   {
+   margin-bottom: 120px;
+}
 }
