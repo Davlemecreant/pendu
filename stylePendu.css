@@ -31,6 +31,9 @@ body
     -webkit-animation: gradient 42s ease infinite;
     -moz-animation: gradient 42s ease infinite;
     animation: gradient 42s ease infinite;
+	box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
 }
 
 h1 {
@@ -44,6 +47,9 @@ img.pendu {
 	margin-top: 130px;
 	width: 200px;
 	height: 250px;
+	box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -2px 1px 50px 0px rgba(0,0,0,0.4);
 }
 
 h2 {
@@ -133,7 +139,7 @@ td
     100%{background-position:0% 50%}
 }
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 800px)
 {
   
    #page
